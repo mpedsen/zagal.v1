@@ -2,15 +2,15 @@ En la primera parte comprobamos si está instalado el programa net-tools ( aunqu
 
 echo " Vamos a averiguar los datos relacionados con tu IP..."
 # vamos a hacer una busqueda si está instalado tools
-if [ $find '/usr/sbin/ifconfig' ]; then
+**if [ $find '/usr/sbin/ifconfig' ]; then**
 	#en el caso que lo tengamos instalado pasaría a la función ver_ip
-	ver_ip 
+	**ver_ip 
 else 
-echo " No tiene el programa net-tools instalado, procedemos instalación..."
+echo " No tiene el programa net-tools instalado, procedemos instalación..."**
 	#instala programa net-tools 
-	sudo apt install net-tools
+	**sudo apt install net-tools**
 	#una vez instalado pasaría al a función ver_ip
-	ver_ip
+	**ver_ip**
 
 
 #función ver_ip
