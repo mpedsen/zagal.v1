@@ -1,4 +1,4 @@
-# Automatización de herramienta para crear usuario, grupos, comprimir y descomprimir archivos, búsquedas con nmap
+# Automatización de herramienta para crear usuarios, grupos, comprimir y descomprimir archivos, búsquedas con nmap
 
 ![image](https://github.com/user-attachments/assets/e09017e7-de08-47cb-a46f-941ac1c825c1)
 
