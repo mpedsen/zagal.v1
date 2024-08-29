@@ -519,7 +519,6 @@ case $REPLY in
 		echo -e "\e[1;35mEscribe el nombre del directorio fuera de home \e[0m"
 		read direct
 		sudo useradd -m -d /$direct/$user $user
-                echo -e "\e[1;35mEscribe el nombre de usuario que quieres ponerle fecha de caducidad \e[0m"
 	;;
 	4)
 		clear
